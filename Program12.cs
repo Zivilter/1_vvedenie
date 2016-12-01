@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; //используем пространство имен System
 
 namespace vvedenie
 {
@@ -6,8 +6,8 @@ namespace vvedenie
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            Console.WriteLine("Hello World!"); //вызов функции для вывода строки на экран
+            Console.ReadKey(); //Вызов функции для ввод, чтобы задержать результат предыдущей функции на экране 
         }
     }
 }
